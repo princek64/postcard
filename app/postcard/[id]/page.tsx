@@ -1,0 +1,3 @@
+import { Postcard3D } from '@/components/PostcardPreview';
+import { demoPostcards } from '@/lib/demo-data';
+export default function PublicPostcard({params}:{params:{id:string}}){const postcard=demoPostcards.find(p=>p.id===params.id)||demoPostcards[0];return <main className="min-h-screen px-6 py-10"><div className="mx-auto max-w-5xl"><p className="mb-6 text-center text-rust">A postcard arrived for {postcard.recipient_name}</p><Postcard3D postcard={postcard}/><div className="mt-8 text-center"><button className="rounded-full bg-rust px-5 py-3 font-semibold text-cream">Reply or send one back</button><p className="mt-2 text-sm text-cocoa/60">Creates an account only if you choose to send.</p></div></div></main>}
