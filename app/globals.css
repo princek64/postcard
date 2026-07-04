@@ -1,0 +1,4 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{color-scheme:light} body{background:#f7eddc;color:#5b3d2e}.paper{background:radial-gradient(circle at 20% 10%,rgba(255,255,255,.55),transparent 25%),linear-gradient(135deg,#fff6e7,#efd6b8)}.filter-retro{filter:sepia(.35) saturate(1.35) contrast(.92) hue-rotate(-12deg)}.filter-vintage{filter:sepia(.75) contrast(.8) brightness(.95) saturate(.75)}.filter-minimal{filter:saturate(.72) contrast(1.05) brightness(1.04)}.filter-sunset{filter:sepia(.2) saturate(1.45) hue-rotate(-22deg) brightness(1.05)}
