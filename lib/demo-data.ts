@@ -1,0 +1,5 @@
+import type { Postcard } from './types';
+export const demoPostcards: Postcard[] = [
+ {id:'london-rain',sender_id:null,recipient_name:'Maya',recipient_contact:'maya@example.com',photo_url:'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=80',filter_type:'retro',caption:'After the rain',note:'Found a quiet street near the market and thought of our long walks. Saving this little London glow for you.',location_name:'London, England',lat:51.5072,lng:-0.1276,created_at:'2026-06-12T10:00:00Z',opened_at:'2026-06-12T10:09:00Z'},
+ {id:'lisbon-light',sender_id:null,recipient_name:'Noah',recipient_contact:'+15550101',photo_url:'https://images.unsplash.com/photo-1501927023255-9063be98970c?auto=format&fit=crop&w=1200&q=80',filter_type:'sunset',caption:'Lisbon light',note:'Every wall here looks sun-washed and kind. Wish you could hear the tram bells from this corner.',location_name:'Lisbon, Portugal',lat:38.7223,lng:-9.1393,created_at:'2026-05-03T14:20:00Z',opened_at:null}
+];
